@@ -3,7 +3,7 @@ class Rope{
         var options = {
             bodyA: bodyA,
             bodyB: bodyB,
-  
+            stiffness: 0.05
             length: 10
         }
         this.chain = Constraint.create(options);
